@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import AddCart from "./Components/AddCart";
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
 import ProductCard from "./Components/ProductCard";
