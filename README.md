@@ -8,11 +8,7 @@ Welcome to our feature-rich Shopping Cart project! This application provides an 
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Configuration](#configuration)
   - [Usage](#usage)
-  - [Contributing](#contributing)
   - [Feedback](#feedback)
   - [Netlify Link](#netlify-link)
 
