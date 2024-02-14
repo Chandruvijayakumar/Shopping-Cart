@@ -3,57 +3,76 @@ import AddCart from "./Components/AddCart";
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
 import ProductCard from "./Components/ProductCard";
+import Footer from "./Components/Footer";
 
 const App = () => {
   const [Value, setValue] = useState(0);
   const obj = [
     {
-      name1: "Laptop",
-      price_usd: 2000.99,
-      inStock: true,
+      name1: "Fancy Products",
+      price_usd: "$40.00 - $80.00",
+      inStock: false,
       id: 1,
       option: false,
-      ratings: true,
+      ratings: false,
     },
     {
-      name1: "Tablet",
-      price_usd: 750.99,
-      inStock: false,
+      name1: "Special Item",
+      price_usd: " $18.00",
+      original_usd: "$20.00 ",
+      inStock: true,
       id: 2,
       option: true,
       ratings: true,
     },
     {
-      name1: "Smartphone",
-      price_usd: 849.99,
+      name1: "Sale item",
+      price_usd: " $25.00",
+      original_usd: "$50.00",
       inStock: true,
       id: 3,
       option: true,
       ratings: false,
     },
     {
-      name1: "Headphones",
-      price_usd: 69.99,
+      name1: "Popular Item",
+      ratings: true,
+      price_usd: "$ 40.00",
       inStock: false,
-      id: 4,
+      option: true,
+    },
+    {
+      name1: "Sale item",
+      price_usd: " $25.00",
+      original_usd: "$50.00",
+      inStock: true,
+      id: 3,
+      option: true,
+      ratings: false,
+    },
+    {
+      name1: "Fancy Products",
+      price_usd: "$120.00 - $280.00",
+      inStock: false,
+      id: 1,
+      option: false,
+      ratings: true,
+    },
+    {
+      name1: "Special Item",
+      price_usd: " $18.00",
+      original_usd: "$20.00 ",
+      inStock: true,
+      id: 2,
       option: true,
       ratings: true,
     },
     {
-      name1: "TV",
-      price_usd: 1299.99,
+      name1: "Popular Item",
+      price_usd: "$ 40.00",
       inStock: false,
-      id: 5,
       option: true,
-      ratings: false,
-    },
-    {
-      name1: "Speakers",
-      price_usd: 149.99,
-      inStock: false,
-      id: 6,
-      option: false,
-      ratings: false,
+      ratings: true,
     },
   ];
   const [Product, setProduct] = useState(obj);
@@ -68,6 +87,7 @@ const App = () => {
               <ProductCard
                 item={item.name1}
                 price={item.price_usd}
+                original={item.original_usd}
                 stock={item.inStock}
                 index={index}
                 id={item.id}
@@ -75,6 +95,8 @@ const App = () => {
                 Value={Value}
                 setValue={setValue}
                 ratings={item.ratings}
+                Details={item.Details}
+                Image={item.Image}
               />
             );
           })}
@@ -82,6 +104,7 @@ const App = () => {
       </div>
       {/* <h1>Add To Cart :{Value}</h1> */}
       {/* <AddCart Value={Value} setValue={setValue} /> */}
+      <Footer />
     </div>
   );
 };

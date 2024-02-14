@@ -1,7 +1,12 @@
-.style{
-    height: 500px;
 
-}
-.card{
-    height: 100%;
-}
+.card {
+            box-shadow: 2px 2px  3px grey;
+            
+          }
+          .card:hover {
+            box-shadow: 7px 10px 20px rgba(290, 1, 1, 0.9);
+          }
+.removeCart:hover{
+  background-color: red;
+}          
+
