@@ -31,7 +31,7 @@ Before you begin, ensure you have the following installed on your machine:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/Chandruvijayakumar/Shopping-Cart.git
+   https://github.com/Chandruvijayakumar/Shopping-Cart.git
     ```
 
 2. **Navigate to the project directory:**
@@ -76,7 +76,7 @@ We welcome contributions! To contribute to this project, please follow the guide
 
 ## Feedback
 
-If you have any questions, issues, or suggestions, feel free to [open an issue](https://github.com/Chandruvijayakumar/Shopping-Cart/issues).
+If you have any questions, issues, or suggestions, feel free to [open an issue](https://github.com/Chandruvijayakumar/Shopping-Cart.git/issues).
 
 ## Netlify Link
 
