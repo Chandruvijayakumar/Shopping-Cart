@@ -24,7 +24,7 @@ const ProductCard = ({
     setStatus(true);
   };
   return (
-    <div className="col-md-6 col-lg-4 col-xl-3 mt-5" key={index}>
+    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-5" key={index}>
       <div className="card h-100">
         {stock ? (
           <div
