@@ -86,6 +86,8 @@ If you have any questions, issues, or suggestions, feel free to [open an issue](
 
 ## Netlify Link
 
+[link](https://chandrushoppingcart.netlify.app/)
+
 ```bash
 https://chandrushoppingcart.netlify.app/
 ```
