@@ -56,7 +56,7 @@ const App = () => {
       inStock: false,
       id: 1,
       option: false,
-      ratings: true,
+      ratings: false,
     },
     {
       name1: "Special Item",
